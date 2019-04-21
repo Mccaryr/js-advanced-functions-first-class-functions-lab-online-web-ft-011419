@@ -1,5 +1,4 @@
-function returnFirstTwoDrivers(){
-  return function(array){
-    return array[0..1];
-  }
-}
+const = returnFirstTwoDrivers = function(array) {
+  return array[0..1];
+};
+  

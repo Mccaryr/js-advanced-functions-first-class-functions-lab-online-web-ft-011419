@@ -6,9 +6,9 @@ const returnLastTwoDrivers = function(drivers) {
   return drivers.slice(-2);
 };
 
-const selectingDrivers = [ returnFirstTwoDrivers, returnLastTwoDrivers ]
+const selectingDrivers = [ returnFirstTwoDrivers, returnLastTwoDrivers ];
 
-function createFareMultiplier = function(multiplierValue) {
+const createFareMultiplier = function(multiplierValue) {
   return function(value) {
     return multiplierValue * value;
   }
